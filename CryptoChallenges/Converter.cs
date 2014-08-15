@@ -81,6 +81,7 @@ namespace CryptoChallenges
                 //lowered.Count(c => c == 'h') +
                 //lowered.Count(c => c == 'i') +
                 //lowered.Count(c => c == 'n') + 
+                lowered.Count(c => c == ' ') +
                    lowered.Count(c => c == 'o');
             //lowered.Count(c => c == 's') +
             //lowered.Count(c => c == 't');
