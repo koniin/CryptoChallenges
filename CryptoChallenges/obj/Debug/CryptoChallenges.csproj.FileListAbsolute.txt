@@ -1,0 +1,6 @@
+C:\Code\CryptoChallenges\CryptoChallenges\bin\Debug\CryptoChallenges.exe.config
+C:\Code\CryptoChallenges\CryptoChallenges\obj\Debug\CryptoChallenges.csprojResolveAssemblyReference.cache
+C:\Code\CryptoChallenges\CryptoChallenges\bin\Debug\CryptoChallenges.exe
+C:\Code\CryptoChallenges\CryptoChallenges\bin\Debug\CryptoChallenges.pdb
+C:\Code\CryptoChallenges\CryptoChallenges\obj\Debug\CryptoChallenges.exe
+C:\Code\CryptoChallenges\CryptoChallenges\obj\Debug\CryptoChallenges.pdb
