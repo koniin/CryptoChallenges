@@ -41,6 +41,8 @@ namespace CryptoChallenges
         }
 
         private string GetHighestScored(byte[] bytes) {
+            StreamWriter sr = File.AppendText(".\\Result.txt");
+
             // 65 - 90 upper case
             // 97 - 122 lower case
             string highestScored = string.Empty, current = string.Empty;
@@ -48,14 +50,21 @@ namespace CryptoChallenges
             int highScore = 0, score = 0;
             for (int i = 65; i <= 122; i++) {
                 current = Encoding.ASCII.GetString(converter.XorBytes(converter.GetByteArrayFilledWithCharacter((char)i, bytes.Length), bytes));
-                score = languageScore.ScoreStringForEnglish(current);
+                score = languageScore.SimpleScoreStringForEnglish(current);
                 if (score > highScore) {
                     highestScored = current;
                     highScore = score;
                     xorCharacterHighestScored = (char) i;
                 }
+
+                if (score > 0) {
+                    sr.WriteLine(current);
+                    sr.Flush();
+                }
+
             }
             Console.WriteLine(xorCharacterHighestScored);
+            sr.Close();
             return highestScored;
         }
 

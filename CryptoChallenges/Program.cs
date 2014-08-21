@@ -23,6 +23,8 @@ namespace CryptoChallenges {
                     return;
 
                 cm.RunChallenge(cki.KeyChar);
+
+                Writer.WriteHelp();
             }
         }
     }
