@@ -4,3 +4,4 @@ C:\Code\CryptoChallenges\CryptoChallenges\bin\Debug\CryptoChallenges.exe
 C:\Code\CryptoChallenges\CryptoChallenges\bin\Debug\CryptoChallenges.pdb
 C:\Code\CryptoChallenges\CryptoChallenges\obj\Debug\CryptoChallenges.exe
 C:\Code\CryptoChallenges\CryptoChallenges\obj\Debug\CryptoChallenges.pdb
+C:\Code\CryptoChallenges\CryptoChallenges\bin\Debug\4.txt

@@ -8,6 +8,13 @@ namespace CryptoChallenges
 {
     public static class Writer
     {
+        public static void WriteHelp() {
+            Console.WriteLine("----------------------------------------");
+            Console.WriteLine("| Press a number to run that challenge |");
+            Console.WriteLine("| Press q or Escape to exit            |");
+            Console.WriteLine("----------------------------------------");
+        }
+
         public static void WriteResult(string expected, string actual)
         {
             Console.WriteLine("Should be: {0}", expected);
